@@ -1,0 +1,11 @@
+components
+
+pages 		- This folder should contain one folder for each page in your application. Inside of those page specific folders should be a single root file that is your page (generally index.js) alongside all the files that are only applicable to that page. For example in the above image we have a Login page which contains the root file index.js, a component called LoginForm, and a custom hook called useLogin. This component and hook are only ever used in the Login page so they are stored with this page instead of being stored in the global hooks or components folders.
+
+hooks 		- For global hooks.
+
+assets 		- The assets folder contains all images, css files, font files, etc. for your project. 
+
+context 	- The context folder stores all your React context files that are used across multiple pages.
+
+utils 		- This folder is for storing all utility functions such as formatters.
